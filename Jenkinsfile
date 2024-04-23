@@ -7,7 +7,7 @@ pipeline {
         
         // sh 'docker build -t phpcomposer .'
         // sh 'docker images'
-        sh 'docker verison'
+        sh 'docker version'
       }
     }
     stage('Build') {
