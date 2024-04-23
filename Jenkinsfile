@@ -26,7 +26,7 @@ pipeline {
         // sh 'php artisan migrate --seed'
         // sh 'php artisan key:generate'
         sh 'cp .env.example .env'
-        sh 'docker build -t MytaskManagerProject-dockerized .'
+        sh 'docker build -t mytaskmanagerproject-dockerized .'
 
       }
     }
