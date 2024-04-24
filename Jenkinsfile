@@ -36,7 +36,7 @@ pipeline {
         
         // sh 'docker build -f Dockerfile-Laravel -t laravelproject .'
         // sh 'docker run -d -p 8881:80 laravelproject'
-        sh ' Deploying...'
+        echo ' Deploying...'
         sh 'docker images'
 
       }
